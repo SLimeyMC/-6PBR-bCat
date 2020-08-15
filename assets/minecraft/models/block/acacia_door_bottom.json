@@ -1,0 +1,68 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/door_bottom",
+	"textures": {
+		"bottom": "block/acacia_door_bottom"
+	},
+	"elements": [
+		{
+			"name": "Body",
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [13, 0, 16, 16], "texture": "#bottom"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+				"south": {"uv": [0, 0, 3, 16], "texture": "#bottom"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+				"down": {"uv": [0, 13, 16, 16], "rotation": 90, "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [2.25, 15, 15],
+			"to": [3.25, 16, 15.9999],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 22, 23]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 0.9999], "texture": "#bottom"},
+				"east": {"uv": [0, 0, 1, 0.9999], "texture": "#bottom"},
+				"south": {"uv": [0, 0, 1, 0.9999], "texture": "#bottom"},
+				"down": {"uv": [0, 0, 1, 0.9999], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [2.25, 4, 15],
+			"to": [3.25, 6, 15.9999],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 12, 23]},
+			"faces": {
+				"north": {"uv": [0, 10, 1, 12], "texture": "#bottom"},
+				"east": {"uv": [0, 10, 1, 12], "texture": "#bottom"},
+				"south": {"uv": [0, 10, 1, 12], "texture": "#bottom"},
+				"up": {"uv": [0, 10, 1, 11], "texture": "#bottom"},
+				"down": {"uv": [0, 11, 1, 11.9999], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [3, 15, 1],
+			"to": [4, 16, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 23, 9]},
+			"faces": {
+				"north": {"uv": [14, 0, 15, 1], "texture": "#bottom"},
+				"east": {"uv": [14, 0, 15, 1], "texture": "#bottom"},
+				"south": {"uv": [14, 0, 15, 1], "texture": "#bottom"},
+				"down": {"uv": [14, 0, 15, 1], "texture": "#bottom"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Door",
+			"origin": [8, 8, 8],
+			"children": [0,
+				{
+					"name": "Hinge",
+					"origin": [8, 8, 8],
+					"children": [1, 2]
+				}, 3]
+		}
+	]
+}

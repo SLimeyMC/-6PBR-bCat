@@ -1,0 +1,24 @@
+{
+"pack": {
+"pack_format": 5,
+"description": [{
+"text":"Cartoony",
+"color":"blue"
+}, {
+"text":"Pack ",
+"color":"gold"
+}, {
+"text":"For ",
+"color":"white"
+}, {
+"text":"Java edition\n",
+"color":"gray"
+}, {
+"text":"Authors:",
+"color":"red"
+}, {
+"text":" arKanSMC",
+"color":"dark_red"
+}]
+}
+}
